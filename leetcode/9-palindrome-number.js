@@ -9,7 +9,7 @@ var isPalindrome = function(x) {
     x = -x;
   }
 
-  while (x > 1) {
+  while (x >= 1) {
     const next = x % 10;
     reversed = reversed * 10 + next;
     x = Math.floor(x / 10);
